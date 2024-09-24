@@ -1,4 +1,4 @@
-# linux-libset
+# Libset (Linux) for Climate Sciences
 A collection of scripts used to set up various Linux libraries needed for used in various climate sciences software and models.
 
 1. libset17sep2024_gnu.sh; a script to compile all libraries frequently used by our research, e.g., HDF, netCDF, grib, CDO, NCO, GrADS, Python3, etc. Required root access. Place and run the script together with the various source codes downloaded
