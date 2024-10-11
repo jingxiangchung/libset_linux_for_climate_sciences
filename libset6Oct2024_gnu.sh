@@ -137,8 +137,8 @@ echo '......please add line: export PATH=/opt/opengrads-2.2.1:${PATH} to the end
 tar -xzvf opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz; cp -rf opengrads-2.2.1.oga.1/Contents /opt/opengrads-2.2.1
 
 #IMPOARTANT: Put the following lines in your ~/.bashrc
-#INSTALL_DIR='/opt/gfort_compiled'
-#export PATH=${INSTALL_DIR}/bin:${PATH}
+#MYLIB_DIR='/opt/gfort_compiled'
+#export PATH=${MYLIB_DIR}/bin:${PATH}
 #export PATH=/opt/opengrads-2.2.1:${PATH}
 
 #export GASCRP=<location where you kept gscripts folder>/gscripts
