@@ -56,7 +56,7 @@ tar -xzvf hdf4.3.0.tar.gz; cd hdfsrc;./configure --prefix=${INSTALL_DIR} --enabl
 #hdf5-1.14.4-3: https://github.com/HDFGroup/hdf5/releases
 #Threadsafe+Unsupported to ensure cdo can chain nc4 data and high level libraries can be built, remove them if HDF5 breaks
 echo "...compiling hdf5..."
-tar -xzvf hdf5-1.14.4-3.tar.gz; cd hdf5-1.14.4-3;./configure --prefix=${INSTALL_DIR} --enable-hl --enable-build-mode=production --with-pic --with-szlib=${INSTALL_DIR} --enable-threadsafe --enable-unsupported CFLAGS=-fPIC --enable-parallel;make;make install;cd ..
+tar -xzvf hdf5-1.14.4-3.tar.gz; cd hdf5-1.14.4-3;./configure --prefix=${INSTALL_DIR} --enable-hl --enable-build-mode=production --with-pic --with-szlib=${INSTALL_DIR} --enable-threadsafe --enable-unsupported --enable-parallel;make;make install;cd ..
 
 #8. PNetCDF---------------------------------------
 #PnetCDF-1.13.0: https://parallel-netcdf.github.io/
