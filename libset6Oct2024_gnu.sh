@@ -138,15 +138,11 @@ tar -xzvf opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz; cp
 
 #IMPOARTANT: Put the following lines in your ~/.bashrc
 #INSTALL_DIR='/opt/gfort_compiled'
-
-#export LD_LIBRARY_PATH=${INSTALL_DIR}/lib:${LD_LIBRARY_PATH}
-#export LDFLAGS="$LDFLAGS -L${INSTALL_DIR}/lib"
-#export CPPFLAGS="${CPPFLAGS} -I${INSTALL_DIR}/include"
-#export CFLAGS=-fPIC
 #export PATH=${INSTALL_DIR}/bin:${PATH}
-
 #export PATH=/opt/opengrads-2.2.1:${PATH}
+
 #export GASCRP=<location where you kept gscripts folder>/gscripts
+
 #export CDO_TIMESTAT_DATE="last"
 
 ##END
