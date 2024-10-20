@@ -136,7 +136,7 @@ echo "...setting up opengrads..."
 echo '......please add line: export PATH=/opt/opengrads-2.2.1:${PATH} to the end of your ~/.bashrc file...'
 tar -xzvf opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz; cp -rf opengrads-2.2.1.oga.1/Contents /opt/opengrads-2.2.1
 
-#IMPOARTANT: Put the following lines in your ~/.bashrc
+#Add the following lines into your .bashrc (without #)
 #MYLIB_DIR='/opt/gfort_compiled'
 #export LD_LIBRARY_PATH=${MYLIB_DIR}/lib:${LD_LIBRARY_PATH}
 #export PATH=${MYLIB_DIR}/bin:${PATH}
