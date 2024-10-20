@@ -138,9 +138,10 @@ tar -xzvf opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz; cp
 
 #IMPOARTANT: Put the following lines in your ~/.bashrc
 #MYLIB_DIR='/opt/gfort_compiled'
+#export LD_LIBRARY_PATH=${MYLIB_DIR}/lib:${LD_LIBRARY_PATH}
 #export PATH=${MYLIB_DIR}/bin:${PATH}
-#export PATH=/opt/opengrads-2.2.1:${PATH}
 
+#export PATH=/opt/opengrads-2.2.1:${PATH}
 #export GASCRP=<location where you kept gscripts folder>/gscripts
 
 #export CDO_TIMESTAT_DATE="last"
