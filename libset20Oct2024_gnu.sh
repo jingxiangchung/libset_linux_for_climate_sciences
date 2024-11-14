@@ -20,7 +20,7 @@ sudo apt-get update
 #sudo apt-get install build-essential g++ gfortran gcc bison flex m4 libexpat1-dev cmake libxml2-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libcurl4-openssl-dev wget pkg-config gdb lcov pkg-config libbz2-dev libffi-dev libgdbm-compat-dev liblzma-dev libreadline6-dev libsqlite3-dev sqlite3 lzma lzma-dev tk-dev uuid-dev zlib1g-dev libmpdec-dev csh libswitch-perl
 
 #For Ubuntu 24.04
-sudo apt-get install build-essential g++ gfortran gcc bison flex m4 libexpat1-dev cmake libxml2-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libcurl4-openssl-dev wget pkg-config gdb lcov pkg-config libbz2-dev libffi-dev libgdbm-compat-dev liblzma-dev libreadline-dev libsqlite3-dev sqlite3 lzma lzma-dev tk-dev uuid-dev zlib1g-dev csh libswitch-perl
+sudo apt-get install build-essential g++ gfortran gcc bison flex m4 libexpat1-dev cmake libxml2-dev libncurses-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libcurl4-openssl-dev wget pkg-config gdb lcov pkg-config libbz2-dev libffi-dev libgdbm-compat-dev liblzma-dev libreadline-dev libsqlite3-dev sqlite3 lzma lzma-dev tk-dev uuid-dev zlib1g-dev csh libswitch-perl default-jre
 
 #1. OPENMPI--------------------------------------
 #openmpi-5.0.5: https://www.open-mpi.org/
@@ -145,6 +145,10 @@ tar -xzvf opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz; cp
 #export GASCRP=<location where you kept gscripts folder>/gscripts
 
 #export CDO_TIMESTAT_DATE="last"
+
+#--------------------------------------------------------------------
+#If need to download data from ESGF using wget script, run the following command:
+#sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ~/.esg/credentials.pem -out ~/.esg/credentials.pem
 
 ##END
 
