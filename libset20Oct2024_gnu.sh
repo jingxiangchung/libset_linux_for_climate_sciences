@@ -148,7 +148,7 @@ tar -xzvf opengrads-2.2.1.oga.1-bundle-x86_64-pc-linux-gnu-glibc_2.17.tar.gz; cp
 
 #--------------------------------------------------------------------
 #If need to download data from ESGF using wget script, run the following command:
-#sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ~/.esg/credentials.pem -out ~/.esg/credentials.pem
+#sudo openssl req -x509 -nodes -newkey rsa:2048 -keyout ~/.esg/credentials.pem -out ~/.esg/credentials.pem
 
 ##END
 
